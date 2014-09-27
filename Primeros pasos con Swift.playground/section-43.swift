@@ -1,0 +1,1 @@
+firstCashier.process(firstPayment, inCash: true)
