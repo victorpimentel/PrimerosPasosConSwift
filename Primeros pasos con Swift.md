@@ -657,7 +657,7 @@ cashierStack.pop()
 
 Sin tener que escribir otra vez el algoritmo, hemos podido reutilizar el código sin perder ninguna ventaja del tipado fuerte.
 
-Este concepto es importante porque en Swift puro, varias de las clases más usadas están basadas en genéricos, como los arrays o los diccionarios, colecciones que por defecto solo admiten elementos del mismo tiempo (al contrario que en Objective C):
+Este concepto es importante porque en Swift puro, varias de las clases más usadas están basadas en genéricos, como los arrays o los diccionarios, colecciones que por defecto solo admiten elementos del mismo tipo (al contrario que en Objective C):
 
 ```swift
 var myStringArray: [String]
