@@ -1,1 +1,0 @@
-var myFirstTuple: (Int, Double, String)

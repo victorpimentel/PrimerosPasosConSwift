@@ -1,10 +1,8 @@
 # Primeros Pasos Con Swift
 
-Primeros Pasos Con Swift, playground y proyecto de prueba del workshop de Swift para Tuenti.
+Primeros Pasos Con Swift, playground y proyecto de prueba del workshop de Swift 2.0 para Tuenti.
 
 ## Estructura
-
-- Primeros pasos con Swift.md incluye el código fuente necesario para [generar el playground correctamente](https://github.com/jas/swift-playground-builder).
 
 - Primeros pasos con Swift.playground incluye el código listo para ejecutar en Xcode.
 

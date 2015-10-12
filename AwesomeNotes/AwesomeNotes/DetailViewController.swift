@@ -74,7 +74,7 @@ class DetailViewController: UIViewController {
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "changePhoto" {
-            imagePicker = segue.destinationViewController as UIImagePickerController
+            imagePicker = segue.destinationViewController as! UIImagePickerController
             imagePicker.delegate = self
         }
     }
@@ -84,7 +84,7 @@ class DetailViewController: UIViewController {
 
 extension DetailViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         var selectedImage = info[UIImagePickerControllerEditedImage] as? UIImage
 
         if selectedImage == nil {

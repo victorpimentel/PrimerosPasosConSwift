@@ -1,1 +1,0 @@
-var firstPayment = Payment(amount: 25, currency: "EUR")

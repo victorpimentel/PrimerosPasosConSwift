@@ -1,1 +1,0 @@
-var firstCat: String = "Félix"

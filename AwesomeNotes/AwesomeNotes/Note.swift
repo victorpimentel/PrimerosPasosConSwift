@@ -10,21 +10,21 @@ import Foundation
 import UIKit
 
 class Note {
-    var body: NSString = "" {
+    var body: String = "" {
         didSet {
-            updatedAt = NSDate.date()
+            updatedAt = NSDate()
         }
     }
     var photo: UIImage? {
         didSet {
-            updatedAt = NSDate.date()
+            updatedAt = NSDate()
         }
     }
     var createdAt: NSDate
     var updatedAt: NSDate
 
     init() {
-        createdAt = NSDate.date()
+        createdAt = NSDate()
         updatedAt = createdAt
     }
 }
